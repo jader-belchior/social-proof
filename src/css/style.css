@@ -1,0 +1,57 @@
+:root {
+  --purple: rgb(79, 0, 79);
+}
+
+* {
+  font-family: "League Spartan", sans-serif;
+}
+
+.intro {
+  width: 45%;
+}
+
+div.d-flex.justify-content-between {
+  height: 50%;
+}
+
+div.d-flex.p-3.mb-2 {
+  width: 100%;
+}
+
+.comments {
+  width: 30%;
+  height: 80%;
+  font-size: 12px;
+}
+
+.avatar {
+  width: 45px;
+}
+
+.bg-translucent {
+  background-color: rgba(55, 5, 55, 0.166);
+}
+
+.text-light {
+  color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.text-translucent {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.text-purple {
+  color: var(--purple) !important;
+}
+
+.bg-purple {
+  background-color: var(--purple) !important;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
